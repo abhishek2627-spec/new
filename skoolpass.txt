@@ -1,0 +1,5 @@
+username= skoolinfo
+pass = skoolinfo2627
+
+Connect to your MongoDB deployment.
+mongodb+srv://skoolinfo:<db_password>@skoool.ovzh8c7.mongodb.net/
