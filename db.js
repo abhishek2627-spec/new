@@ -3,8 +3,10 @@ require('dotenv').config()
 //const mongourl = 'mongodb://127.0.0.1:27017/hotels';
 //const mongourl = 'mongodb+srv://skoolinfo:skoolinfo2627@skoool.ovzh8c7.mongodb.net/'
 //mongoose.connect('mongodb://127.0.0.1:27017/hotels');
-mongoose.connect(process.env.DB_URL);
 
+
+mongoose.connect(process.env.DB_URL);
+//mongoose.connect(process.env.LOCAL_URL);
 
 
 const db = mongoose.connection;
